@@ -1,3 +1,7 @@
+// console.log(pathname);
+// console.log(self.location);
+// window.setTimeout(function () { window.location = "http://www.pt.stackoverflow.com"; }, 3000);
+
 const aboutMeSection = document.querySelector(".about-me-section");
 const projectsSection = document.querySelector(".main-section");
 const contactSection = document.querySelector(".contact-section");
