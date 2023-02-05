@@ -461,7 +461,6 @@ function filterProject(value) {
       if (secondaryFilter.classList.contains('active-bar')) {
         wpBtn.style.backgroundColor = "#7562e0";
         wpBtn.style.color = "white";
-        console.log(secondaryFilter)
       }
 
       if (secondaryFilter.classList.contains('hide')) {

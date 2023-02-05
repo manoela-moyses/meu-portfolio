@@ -20,9 +20,9 @@
     <a href="../index.html"><img src="../assets/ManoelaM.png" alt="Logo"></a>
     <nav>
       <div class="menu">
-        <a class="onclick-about-me" href="../index.html">Sobre mim</a>
-        <a class="onclick-projects" href="/pages/projects.html">Projetos</a>
-        <a class="onclick-contact contact-me" href="/pages/contact.html">Contato</a>
+        <a href="../index.html">Sobre mim</a>
+        <a href="/pages/projects.html">Projetos</a>
+        <a class="contact-me" href="/pages/contact.html">Contato</a>
       </div>
     </nav>
   </header>
@@ -139,23 +139,17 @@
         </div>
         <div class="contact-card">
           <h2>Satisfeito comigo? Vamos lá, entre em contato</h2>
-          <form id="my-form" action="">
-            <div class="input-wrapper">
-              <label for="form-name"></label>
-              <input type="text" id="form-name" required minlength="8" placeholder="Nome:" required />
-            </div>
+          <form id="my-form" action="https://formsubmit.co/manoela.moyses0205@gmail.com" method="POST">
+            <label class="sr-only" for="form-name"></label>
+            <input type="text" name="name" id="form-name" required placeholder="Nome:" required />
 
-            <div class="input-wrapper">
-              <label class="sr-only" for="form-email"></label>
-              <input type="email" id="form-email" placeholder="E-mail" required />
-            </div>
+            <label class="sr-only" for="form-email"></label>
+            <input type="email" name="email" id="form-email" placeholder="E-mail" required />
 
-            <div class="input-wrapper">
-              <label class="sr-only" for="message"></label>
-              <textarea id="message" placeholder="Mensagem:"></textarea>
-            </div>
+            <label class="sr-only" for="message"></label>
+            <textarea name="message" id="message" placeholder="Mensagem:"></textarea>
 
-            <input class="button gradient sr-only" type="submit" form="my-form" value="Enviar">
+            <input class="button gradient" type="submit" form="my-form" value="Enviar">
           </form>
         </div>
       </section>

@@ -486,8 +486,9 @@ table tr:nth-child(odd) {
   line-height: 4.44rem;
 }
 
-.input-wrapper input,
-.input-wrapper textarea {
+#form-name,
+#form-email,
+#message {
   font-family: "Poppins", sans-serif;
   font-size: 1.6rem;
   line-height: 2.4rem;
@@ -497,25 +498,29 @@ table tr:nth-child(odd) {
   border-radius: 0.8rem;
   height: 4rem;
   padding: 0.8rem 3.2rem;
+  width: 100%;
 }
 
-.input-wrapper:nth-child(1) {
+#form-name {
   margin-top: 3.2rem;
 }
 
-.input-wrapper {
+#form-name,
+#form-email,
+#message {
   margin-bottom: 1.6rem;
   display: flex;
   flex-direction: column;
 }
 
-.input-wrapper input:focus,
-.input-wrapper textarea:focus,
+#form-name:focus,
+#form-email:focus,
+#message:focus,
 input.button:focus {
   outline: 2px solid #7562e0;
 }
 
-.input-wrapper textarea {
+#message {
   height: 38.4rem;
 }
 
