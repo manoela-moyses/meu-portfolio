@@ -22,11 +22,25 @@ body {
   display: none;
 }
 
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border-width: 0;
+  white-space: nowrap;
+}
+
 main {
   padding: 0 8.8rem;
   display: flex;
   justify-content: center;
   gap: 6.4rem;
+  position: relative;
+  margin-top: 16.5rem;
 }
 
 /**************************************************************/
@@ -38,17 +52,25 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  animation: topdown 1s 0.5s backwards;
 }
 
 header img {
   max-width: 16rem;
   cursor: pointer;
+  position: relative;
 }
 
 nav a {
   font-weight: 600;
   text-decoration: none;
   color: white;
+  position: relative;
 }
 
 nav a:hover,
@@ -68,6 +90,8 @@ aside {
   width: 100%;
   max-width: 39.6rem;
   margin-top: 3.2rem;
+  position: relative;
+  animation: leftright 1s 0.5s backwards;
 }
 
 /* PROFILE */
@@ -206,7 +230,7 @@ aside {
 .main-content {
   width: 100%;
   max-width: 80.4rem;
-  margin-top: 3.2rem;
+  animation: rightleft 1s 0.5s backwards;
 }
 
 /**************************************************************/
@@ -576,4 +600,40 @@ input.button:hover {
 
 .pin-footer {
   cursor: default;
+}
+
+@keyframes topdown {
+  0% {
+    opacity: 0;
+    transform: translateY(-10.6rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes leftright {
+  0% {
+    opacity: 0;
+    transform: translateX(-10.6rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes rightleft {
+  0% {
+    opacity: 0;
+    transform: translateX(10.6rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }

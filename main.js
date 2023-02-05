@@ -13,7 +13,7 @@ let projects = {
       projectName: "Meu Linktree",
       category: "Coding",
       description: "Árvore de links para a Bio do Instagram",
-      tools: "Desenvolvido em HTMLe CSS",
+      tools: "Desenvolvido em HTML e CSS",
       image: "../assets/meu-linktree.png",
       siteLink: "https://manoela-moyses.github.io/meulinktree/",
       githubLink: "https://github.com/manoela-moyses/meulinktree"
