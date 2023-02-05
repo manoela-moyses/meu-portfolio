@@ -547,9 +547,10 @@ input.button:hover {
 }
 
 /**************************************************************/
-/* SUCCESS */
+/* SUCCESS & ERROR 404 */
 
-.success-section {
+.success-section,
+.error-section {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -559,13 +560,15 @@ input.button:hover {
   animation: fadein 1s 0.5s backwards;
 }
 
-.container-success {
+.container-success,
+.container-error {
   background-color: white;
   border-radius: 0.8rem;
   max-width: 51.8rem;
 }
 
-.success {
+.success,
+.error {
   background-color: #7562e0;
   border-radius: 0.8rem 0.8rem 0 0;
   display: flex;
@@ -575,18 +578,25 @@ input.button:hover {
   height: 29.6rem;
 }
 
-.success i {
+.error {
+  background-color: #da1381;
+}
+
+.success i,
+.error i {
   font-size: 12.5rem;
   padding-bottom: 1.6rem;
 }
 
-.success p {
+.success p,
+.error p {
   font-size: 3.2rem;
   font-weight: 600;
   text-transform: uppercase;
 }
 
-.send-email {
+.send-email,
+.error-message {
   height: 29.6rem;
   display: flex;
   flex-direction: column;
@@ -594,21 +604,29 @@ input.button:hover {
   align-items: center;
 }
 
-.send-email p {
+.send-email p,
+.error-message p {
   color: #7562e0;
   font-size: 2.4rem;
   line-height: 3.6rem;
   font-weight: 600;
 }
 
-.send-email button {
+.error-message p {
+  padding: 0 3.2rem;
+  color: #da1381;
+}
+
+.send-email button,
+.error-message button {
   border: none;
   margin-top: 3.2rem;
   height: 5.3rem;
   transition: all 0.4s ease-in-out;
 }
 
-.send-email a {
+.send-email a,
+.error-message a {
   border-radius: 0.8rem;
   text-decoration: none;
   background: linear-gradient(270deg, #da1381 0%, #7562e0 100%);
@@ -618,7 +636,8 @@ input.button:hover {
   font-weight: 600;
 }
 
-.send-email button:hover {
+.send-email button:hover,
+.error-message button:hover {
   transform: scale(0.9);
 }
 
