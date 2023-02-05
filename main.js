@@ -1,3 +1,23 @@
+const aboutMeSection = document.querySelector(".about-me-section");
+const projectsSection = document.querySelector(".main-section");
+const contactSection = document.querySelector(".contact-section");
+
+const btnAboutMe = document.querySelector(".about-me");
+const btnProj = document.querySelector(".proj");
+const btnContact = document.querySelector(".contact-me");
+
+if (aboutMeSection) {
+  btnAboutMe.style.color = "#da1381";
+}
+
+if (projectsSection) {
+  btnProj.style.color = "#da1381";
+}
+
+if (contactSection) {
+  btnContact.style.color = "#da1381";
+}
+
 let projects = {
   data: [
     {
