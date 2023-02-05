@@ -6,8 +6,8 @@ let projects = {
       description: "Site para apresentação dos meus projetos",
       tools: "Desenvolvido em HTML, CSS e JavaScript",
       image: "../assets/meu-portfolio.png",
-      siteLink: "",
-      githubLink: ""
+      siteLink: "https://manoelamoyses.vercel.app/",
+      githubLink: "https://github.com/manoela-moyses/meu-portfolio"
     },
     {
       projectName: "Meu Linktree",
