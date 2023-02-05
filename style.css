@@ -542,7 +542,7 @@ input.button:hover {
 }
 
 .gradient {
-  background: linear-gradient(270deg, #da1381 0%, #7562e0 100%);
+  background: -webkit-linear-gradient(left, #7562e0 0%, #da1381 100%);
 }
 
 /**************************************************************/
