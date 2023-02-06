@@ -1274,7 +1274,7 @@ footer {
   }
 
   #nav.toggle-menu #menu {
-    height: calc(50vh - 12rem);
+    height: calc(40vh - 12rem);
     visibility: visible;
   }
 
