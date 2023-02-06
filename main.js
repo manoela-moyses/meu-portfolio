@@ -1,6 +1,25 @@
 // console.log(pathname);
 // console.log(self.location);
 // window.setTimeout(function () { window.location = "http://www.pt.stackoverflow.com"; }, 3000);
+const btnMobile = document.getElementById("btn-mobile");
+
+btnMobile.addEventListener('click', toggleMenu);
+btnMobile.addEventListener('touchstart', toggleMenu);
+function toggleMenu(event) {
+  if (event.type === 'touchstart') {
+    event.preventDefault();
+  }
+  const nav = document.getElementById("nav");
+  nav.classList.toggle("toggle-menu");
+  const toggleMenu = nav.classList.contains("toggle-menu");
+  event.currentTarget.setAttribute('aria-expanded', toggleMenu);
+  if (toggleMenu) {
+    event.currentTarget.setAttribute("aria-label", "Fechar Menu");
+  } else {
+    event.currentTarget.setAttribute("aria-label", "Abrir Menu");
+
+  }
+}
 
 const aboutMeSection = document.querySelector(".about-me-section");
 const projectsSection = document.querySelector(".main-section");
@@ -12,6 +31,7 @@ const btnContact = document.querySelector(".contact-me");
 
 if (aboutMeSection) {
   btnAboutMe.style.color = "#da1381";
+  console.log(aboutMeSection)
 }
 
 if (projectsSection) {
@@ -28,7 +48,7 @@ let projects = {
       projectName: "Meu Portfólio",
       category: "Coding",
       description: "Site para apresentação dos meus projetos",
-      tools: "Desenvolvido em HTML, CSS e JavaScript",
+      tools: "HTML, CSS e JavaScript",
       image: "../assets/meu-portfolio.png",
       siteLink: "https://manoelamoyses.vercel.app/",
       githubLink: "https://github.com/manoela-moyses/meu-portfolio"
@@ -37,7 +57,7 @@ let projects = {
       projectName: "Meu Linktree",
       category: "Coding",
       description: "Árvore de links para a Bio do Instagram",
-      tools: "Desenvolvido em HTML e CSS",
+      tools: "HTML e CSS",
       image: "../assets/meu-linktree.png",
       siteLink: "https://manoela-moyses.github.io/meulinktree/",
       githubLink: "https://github.com/manoela-moyses/meulinktree"
@@ -56,7 +76,7 @@ let projects = {
       projectName: "FocusTimer",
       category: "Coding",
       description: "Aplicação criada no Stage 05 do Programa Explorer da Rocketseat",
-      tools: "Desenvolvido em HTML, CSS e JavaScript",
+      tools: "HTML, CSS e JavaScript",
       image: "../assets/focus-timer.png",
       siteLink: "https://manoela-moyses.github.io/projeto-imc/",
       githubLink: "https://github.com/manoela-moyses/FocusTimer-2.0"
@@ -65,7 +85,7 @@ let projects = {
       projectName: "RocketPay",
       category: "Coding",
       description: "Componente de cartão de crédito criado no evento Explorer Lab da Rocketseat",
-      tools: "Desenvolvido em HTML, CSS e JavaScript",
+      tools: "HTML, CSS e JavaScript",
       image: "../assets/rocketpay.png",
       siteLink: "https://explorer-lab-beige.vercel.app/",
       githubLink: "https://github.com/manoela-moyses/explorer-lab"
@@ -74,7 +94,7 @@ let projects = {
       projectName: "Projeto IMC",
       category: "Coding",
       description: "Desafio 02 do Stage 05 do Programa Explorer da Rocketseat",
-      tools: "Desenvolvido em HTML, CSS e JavaScript",
+      tools: "HTML, CSS e JavaScript",
       image: "../assets/imc.png",
       siteLink: "https://manoela-moyses.github.io/projeto-imc/",
       githubLink: "https://github.com/manoela-moyses/projeto-imc"
@@ -83,7 +103,7 @@ let projects = {
       projectName: "Recriando layout - Extra",
       category: "Coding",
       description: "Desafio intermediário do Stage 02 do Programa Explorer da Rocketseat",
-      tools: "Desenvolvido em HTML e CSS",
+      tools: "HTML e CSS",
       image: "../assets/desafio-extra.png",
       siteLink: "https://stage02-extra.vercel.app/",
       githubLink: "https://github.com/manoela-moyses/stage02-extra"
@@ -112,7 +132,7 @@ let projects = {
       projectName: "Móveis customizados",
       category: "Coding",
       description: "Desafio 01 do Stage 02 do Programa Explorer da Rocketseat",
-      tools: "Desenvolvido em HTML e CSS",
+      tools: "HTML e CSS",
       image: "../assets/projeto-01.png",
       siteLink: "https://manoela-moyses.github.io/meuprojeto01/",
       githubLink: "https://github.com/manoela-moyses/meuprojeto01"
@@ -121,7 +141,7 @@ let projects = {
       projectName: "Treine me",
       category: "Coding",
       description: "Desafio 02 do Stage 02 do Programa Explorer da Rocketseat",
-      tools: "Desenvolvido em HTML e CSS",
+      tools: "HTML e CSS",
       image: "../assets/treine-me.png",
       siteLink: "https://manoela-moyses.github.io/meuprojeto02/",
       githubLink: "https://github.com/manoela-moyses/meuprojeto02"
@@ -140,7 +160,7 @@ let projects = {
       projectName: "Biscoito da Sorte",
       category: "Coding",
       description: "Jogo criado no Stage 05 do Programa Explorer da Rocketseat",
-      tools: "Desenvolvido em HTML, CSS e JavaScript",
+      tools: "HTML, CSS e JavaScript",
       image: "../assets/biscoito-da-sorte.png",
       siteLink: "https://biscoito-da-sorte-gray.vercel.app/",
       githubLink: "https://github.com/manoela-moyses/biscoito-da-sorte"
@@ -169,7 +189,7 @@ let projects = {
       projectName: "SPA Universe",
       category: "Coding",
       description: "SPA criada no Stage 06 do Programa Explorer da Rocketseat",
-      tools: "Desenvolvido em HTML, CSS e JavaScript",
+      tools: "HTML, CSS e JavaScript",
       image: "../assets/spa-universe.png",
       siteLink: "https://spa-universe-tau.vercel.app/",
       githubLink: "https://github.com/manoela-moyses/spa-universe"
@@ -178,7 +198,7 @@ let projects = {
       projectName: "GitFav",
       category: "Coding",
       description: "Página de favoritos do GitHub criada no Stage 06 do Programa Explorer da Rocketseat",
-      tools: "Desenvolvido em HTML, CSS e JavaScript",
+      tools: "HTML, CSS e JavaScript",
       image: "../assets/gitfav.png",
       siteLink: "https://gitfav-nine.vercel.app/",
       githubLink: "https://github.com/manoela-moyses/gitfav"
@@ -207,7 +227,7 @@ let projects = {
       projectName: "Space Cream",
       category: "Coding",
       description: "Grid com animações criado no Stage 03 do Programa Explorer da Rocketseat",
-      tools: "Desenvolvido em HTML e CSS",
+      tools: "HTML e CSS",
       image: "../assets/space-cream.png",
       siteLink: "https://manoela-moyses.github.io/space-cream/",
       githubLink: "https://github.com/manoela-moyses/space-cream"
@@ -226,7 +246,7 @@ let projects = {
       projectName: "Jogo da adivinhação",
       category: "Coding",
       description: "Projeto criado no Stage 05 do Programa Explorer da Rocketseat",
-      tools: "Desenvolvido em HTML, CSS e JavaScript",
+      tools: "HTML, CSS e JavaScript",
       image: "../assets/adivinhacao.png",
       siteLink: "https://manoela-moyses.github.io/jogo-adivinhacao/",
       githubLink: "https://github.com/manoela-moyses/jogo-adivinhacao"
@@ -255,7 +275,7 @@ let projects = {
       projectName: "RocketLinks",
       category: "Coding",
       description: "Árvore de links criada no evento Maratona Explorer 2 da Rocketseat",
-      tools: "Desenvolvido em HTML e CSS",
+      tools: "HTML e CSS",
       image: "../assets/rocket-links.png",
       siteLink: "https://manoela-moyses.github.io/maratona-explorer-2/",
       githubLink: "https://github.com/manoela-moyses/maratona-explorer-2"
@@ -264,7 +284,7 @@ let projects = {
       projectName: "RocketCoffe",
       category: "Coding",
       description: "Cardápio criado no evento Maratona Explorer 3 da Rocketseat",
-      tools: "Desenvolvido em HTML e CSS",
+      tools: "HTML e CSS",
       image: "../assets/rocket-coffee.png",
       siteLink: "https://manoela-moyses.github.io/maratona-explorer-3/",
       githubLink: "https://github.com/manoela-moyses/maratona-explorer-3"
@@ -293,7 +313,7 @@ let projects = {
       projectName: "Crie seu evento",
       category: "Coding",
       description: "Formulário criado no Stage 03 do Programa Explorer da Rocketseat",
-      tools: "Desenvolvido em HTML e CSS",
+      tools: "HTML e CSS",
       image: "../assets/form.png",
       siteLink: "https://manoela-moyses.github.io/criando-formularios/",
       githubLink: "https://github.com/manoela-moyses/criando-formularios"
@@ -302,7 +322,7 @@ let projects = {
       projectName: "Responsividade",
       category: "Coding",
       description: "Desafio 02 do Stage 03 do Programa Explorer da Rocketseat",
-      tools: "Desenvolvido em HTML e CSS",
+      tools: "HTML e CSS",
       image: "../assets/responsividade.png",
       siteLink: "https://manoela-moyses.github.io/responsividade/",
       githubLink: "https://github.com/manoela-moyses/responsividade"
@@ -311,7 +331,7 @@ let projects = {
       projectName: "Componente Trabalhos",
       category: "Coding",
       description: "Desafio 03 do Stage 03 do Programa Explorer da Rocketseat",
-      tools: "Desenvolvido em HTML e CSS",
+      tools: "HTML e CSS",
       image: "../assets/trabalhos.png",
       siteLink: "https://manoela-moyses.github.io/componente-trabalhos/",
       githubLink: "https://github.com/manoela-moyses/componente-trabalhos"
@@ -340,7 +360,7 @@ let projects = {
       projectName: "Rocket.sect",
       category: "Coding",
       description: "Desafio avançado do Stage 02 do Programa Explorer da Rocketseat",
-      tools: "Desenvolvido em HTML e CSS",
+      tools: "HTML e CSS",
       image: "../assets/rocket-sect.png",
       siteLink: "https://manoela-moyses.github.io/meuprojeto03/",
       githubLink: "https://github.com/manoela-moyses/meuprojeto03"
@@ -349,7 +369,7 @@ let projects = {
       projectName: "Projeto Flexbox&Grid",
       category: "Coding",
       description: "Aplicação criada no Programa FullStack JavaScript Profissional da OneBitCode",
-      tools: "Desenvolvido em HTML e CSS",
+      tools: "HTML e CSS",
       image: "../assets/flexbox-grid.png",
       siteLink: "https://manoela-moyses.github.io/exercicio-flexbox-grid/",
       githubLink: "https://github.com/manoela-moyses/exercicio-flexbox-grid"
@@ -358,7 +378,7 @@ let projects = {
       projectName: "Mega Sena",
       category: "Coding",
       description: "Aplicação criada no Minicamp Data&Dev da XPE",
-      tools: "Desenvolvido em HTML, CSS e JavaScript (com LocalStorage)",
+      tools: "HTML, CSS e JavaScript (com LocalStorage)",
       image: "../assets/megasena.png",
       siteLink: "https://manoela-moyses.github.io/megasena-xpe/",
       githubLink: "https://github.com/manoela-moyses/megasena-xpe"
@@ -367,7 +387,7 @@ let projects = {
       projectName: "Calculadora de IMC",
       category: "Coding",
       description: "Aplicação criada no Minicamp Data&Dev da XPE",
-      tools: "Desenvolvido em HTML, CSS e JavaScript",
+      tools: "HTML, CSS e JavaScript",
       image: "../assets/calculadora-imc.png",
       siteLink: "https://manoela-moyses.github.io/calculadora-imc-xpe/",
       githubLink: "https://github.com/manoela-moyses/calculadora-imc-xpe"
@@ -388,7 +408,7 @@ for (let i of projects.data) {
   card.appendChild(imgContainer);
 
   let container = document.createElement("div");
-  container.classList.add("container");
+  container.classList.add("container-proj");
 
   let name = document.createElement("h3");
   name.classList.add("project-name");
