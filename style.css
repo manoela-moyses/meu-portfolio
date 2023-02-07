@@ -1180,6 +1180,27 @@ footer {
   }
 }
 
+@media (max-width: 610px) {
+  .buttons {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.6rem;
+  }
+
+  .buttons a {
+    font-size: 1.8rem;
+  }
+
+  .button-value {
+    display: flex;
+    margin-bottom: 0.8rem;
+  }
+
+  .button-value:nth-last-child(1) {
+    margin-bottom: 3.2rem;
+  }
+}
+
 @media (max-width: 590px) {
   .about-me-card,
   .projects-card,
@@ -1221,27 +1242,6 @@ footer {
     font-size: 1.6rem;
     line-height: 2.4rem;
     padding-top: 1.6rem;
-  }
-}
-
-@media (max-width: 500px) {
-  .buttons {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 1.6rem;
-  }
-
-  .buttons a {
-    font-size: 1.8rem;
-  }
-
-  .button-value {
-    display: flex;
-    margin-bottom: 0.8rem;
-  }
-
-  .button-value:nth-last-child(1) {
-    margin-bottom: 3.2rem;
   }
 }
 
