@@ -45,7 +45,7 @@ let projects = {
       category: "Coding",
       description: "Site para apresentação dos meus projetos",
       tools: "HTML, CSS e JavaScript",
-      image: "../assets/meu-portfolio.png",
+      image: "../../../assets/meu-portfolio.png",
       siteLink: "https://manoelamoyses.vercel.app/",
       githubLink: "https://github.com/manoela-moyses/meu-portfolio"
     },
@@ -54,7 +54,7 @@ let projects = {
       category: "Coding",
       description: "Árvore de links para a Bio do Instagram",
       tools: "HTML e CSS",
-      image: "../assets/meu-linktree.png",
+      image: "../../../assets/meu-linktree.png",
       siteLink: "https://manoela-moyses.github.io/meulinktree/",
       githubLink: "https://github.com/manoela-moyses/meulinktree"
     },
@@ -64,7 +64,7 @@ let projects = {
       subcategory: "Institutionals",
       description: "Site em WordPress feito para advogado / consultoria jurídica",
       tools: "",
-      image: "../assets/altemir.jpg",
+      image: "../../assets/altemir.jpg",
       siteLink: "https://altemir.adv.br/",
       githubLink: ""
     },
@@ -73,7 +73,7 @@ let projects = {
       category: "Coding",
       description: "Aplicação criada no Stage 05 do Programa Explorer da Rocketseat",
       tools: "HTML, CSS e JavaScript",
-      image: "../assets/focus-timer.png",
+      image: "../../assets/focus-timer.png",
       siteLink: "https://manoela-moyses.github.io/projeto-imc/",
       githubLink: "https://github.com/manoela-moyses/FocusTimer-2.0"
     },
@@ -82,7 +82,7 @@ let projects = {
       category: "Coding",
       description: "Componente de cartão de crédito criado no evento Explorer Lab da Rocketseat",
       tools: "HTML, CSS e JavaScript",
-      image: "../assets/rocketpay.png",
+      image: "../../assets/rocketpay.png",
       siteLink: "https://explorer-lab-beige.vercel.app/",
       githubLink: "https://github.com/manoela-moyses/explorer-lab"
     },
@@ -91,7 +91,7 @@ let projects = {
       category: "Coding",
       description: "Desafio 02 do Stage 05 do Programa Explorer da Rocketseat",
       tools: "HTML, CSS e JavaScript",
-      image: "../assets/imc.png",
+      image: "../../assets/imc.png",
       siteLink: "https://manoela-moyses.github.io/projeto-imc/",
       githubLink: "https://github.com/manoela-moyses/projeto-imc"
     },
@@ -100,7 +100,7 @@ let projects = {
       category: "Coding",
       description: "Desafio intermediário do Stage 02 do Programa Explorer da Rocketseat",
       tools: "HTML e CSS",
-      image: "../assets/desafio-extra.png",
+      image: "../../assets/desafio-extra.png",
       siteLink: "https://stage02-extra.vercel.app/",
       githubLink: "https://github.com/manoela-moyses/stage02-extra"
     },
@@ -110,7 +110,7 @@ let projects = {
       subcategory: "Blogs",
       description: "Este site é a plataforma de comunicação interna da Corsan®",
       tools: "",
-      image: "../assets/infomais.jpg",
+      image: "../../assets/infomais.jpg",
       siteLink: "https://infomais.corsan.com.br/",
       githubLink: ""
     },
@@ -120,7 +120,7 @@ let projects = {
       subcategory: "Institutionals",
       description: "Site em WordPress feito para clínica veterinária / pet shop",
       tools: "",
-      image: "../assets/vet-care.png",
+      image: "../../assets/vet-care.png",
       siteLink: "https://manoelamoyses.net/vetcare/",
       githubLink: ""
     },
@@ -129,7 +129,7 @@ let projects = {
       category: "Coding",
       description: "Desafio 01 do Stage 02 do Programa Explorer da Rocketseat",
       tools: "HTML e CSS",
-      image: "../assets/projeto-01.png",
+      image: "../../assets/projeto-01.png",
       siteLink: "https://manoela-moyses.github.io/meuprojeto01/",
       githubLink: "https://github.com/manoela-moyses/meuprojeto01"
     },
@@ -138,7 +138,7 @@ let projects = {
       category: "Coding",
       description: "Desafio 02 do Stage 02 do Programa Explorer da Rocketseat",
       tools: "HTML e CSS",
-      image: "../assets/treine-me.png",
+      image: "../../assets/treine-me.png",
       siteLink: "https://manoela-moyses.github.io/meuprojeto02/",
       githubLink: "https://github.com/manoela-moyses/meuprojeto02"
     },
@@ -148,7 +148,7 @@ let projects = {
       subcategory: "Ecommerce",
       description: "Site em WordPress feito para e-commerce de macarons",
       tools: "",
-      image: "../assets/macaron-shop.png",
+      image: "../../assets/macaron-shop.png",
       siteLink: "https://manoelamoyses.net/macaronshop/",
       githubLink: ""
     },
@@ -157,7 +157,7 @@ let projects = {
       category: "Coding",
       description: "Jogo criado no Stage 05 do Programa Explorer da Rocketseat",
       tools: "HTML, CSS e JavaScript",
-      image: "../assets/biscoito-da-sorte.png",
+      image: "../../assets/biscoito-da-sorte.png",
       siteLink: "https://biscoito-da-sorte-gray.vercel.app/",
       githubLink: "https://github.com/manoela-moyses/biscoito-da-sorte"
     },
@@ -167,7 +167,7 @@ let projects = {
       subcategory: "Blogs",
       description: "Este site é a plataforma de comunicação interna da Fruki®",
       tools: "",
-      image: "../assets/somos-fruki.jpg",
+      image: "../../assets/somos-fruki.jpg",
       siteLink: "https://somosfruki.com.br/",
       githubLink: ""
     },
@@ -177,7 +177,7 @@ let projects = {
       subcategory: "Institutionals",
       description: "Site em WordPress feito para agência digital",
       tools: "",
-      image: "../assets/digital-fire.png",
+      image: "../../assets/digital-fire.png",
       siteLink: "https://manoelamoyses.net/digitalfire/",
       githubLink: ""
     },
@@ -186,7 +186,7 @@ let projects = {
       category: "Coding",
       description: "SPA criada no Stage 06 do Programa Explorer da Rocketseat",
       tools: "HTML, CSS e JavaScript",
-      image: "../assets/spa-universe.png",
+      image: "../../assets/spa-universe.png",
       siteLink: "https://spa-universe-tau.vercel.app/",
       githubLink: "https://github.com/manoela-moyses/spa-universe"
     },
@@ -195,7 +195,7 @@ let projects = {
       category: "Coding",
       description: "Página de favoritos do GitHub criada no Stage 06 do Programa Explorer da Rocketseat",
       tools: "HTML, CSS e JavaScript",
-      image: "../assets/gitfav.png",
+      image: "../../assets/gitfav.png",
       siteLink: "https://gitfav-nine.vercel.app/",
       githubLink: "https://github.com/manoela-moyses/gitfav"
     },
@@ -205,7 +205,7 @@ let projects = {
       subcategory: "Institutionals",
       description: "Site em WordPress feito para divulgação de infoproduto",
       tools: "",
-      image: "../assets/infoproduto.png",
+      image: "../../assets/infoproduto.png",
       siteLink: "https://manoelamoyses.net/site-infoproduto/",
       githubLink: ""
     },
@@ -215,7 +215,7 @@ let projects = {
       subcategory: "LandingPages",
       description: "Site em WordPress feito para captura de e-mail",
       tools: "",
-      image: "../assets/captura-de-email.png",
+      image: "../../assets/captura-de-email.png",
       siteLink: "https://manoelamoyses.net/captura-de-email/",
       githubLink: ""
     },
@@ -224,7 +224,7 @@ let projects = {
       category: "Coding",
       description: "Grid com animações criado no Stage 03 do Programa Explorer da Rocketseat",
       tools: "HTML e CSS",
-      image: "../assets/space-cream.png",
+      image: "../../assets/space-cream.png",
       siteLink: "https://manoela-moyses.github.io/space-cream/",
       githubLink: "https://github.com/manoela-moyses/space-cream"
     },
@@ -234,7 +234,7 @@ let projects = {
       subcategory: "Blogs",
       description: "Site em WordPress feito para apresentação de aplicativo",
       tools: "",
-      image: "../assets/10-minutos-exercicios.png",
+      image: "../../assets/10-minutos-exercicios.png",
       siteLink: "https://manoelamoyses.net/10minutosexercicios/",
       githubLink: ""
     },
@@ -243,7 +243,7 @@ let projects = {
       category: "Coding",
       description: "Projeto criado no Stage 05 do Programa Explorer da Rocketseat",
       tools: "HTML, CSS e JavaScript",
-      image: "../assets/adivinhacao.png",
+      image: "../../assets/adivinhacao.png",
       siteLink: "https://manoela-moyses.github.io/jogo-adivinhacao/",
       githubLink: "https://github.com/manoela-moyses/jogo-adivinhacao"
     },
@@ -253,7 +253,7 @@ let projects = {
       subcategory: "Institutionals",
       description: "Site em WordPress feito para portfólio",
       tools: "",
-      image: "../assets/portfolio.png",
+      image: "../../assets/portfolio.png",
       siteLink: "https://manoelamoyses.net/portfolio/",
       githubLink: ""
     },
@@ -263,7 +263,7 @@ let projects = {
       subcategory: "Blogs",
       description: "Site em WordPress feito para administração de blog",
       tools: "",
-      image: "../assets/blog-fitness.png",
+      image: "../../assets/blog-fitness.png",
       siteLink: "https://manoelamoyses.net/blogfitness/",
       githubLink: ""
     },
@@ -272,7 +272,7 @@ let projects = {
       category: "Coding",
       description: "Árvore de links criada no evento Maratona Explorer 2 da Rocketseat",
       tools: "HTML e CSS",
-      image: "../assets/rocket-links.png",
+      image: "../../assets/rocket-links.png",
       siteLink: "https://manoela-moyses.github.io/maratona-explorer-2/",
       githubLink: "https://github.com/manoela-moyses/maratona-explorer-2"
     },
@@ -281,7 +281,7 @@ let projects = {
       category: "Coding",
       description: "Cardápio criado no evento Maratona Explorer 3 da Rocketseat",
       tools: "HTML e CSS",
-      image: "../assets/rocket-coffee.png",
+      image: "../../assets/rocket-coffee.png",
       siteLink: "https://manoela-moyses.github.io/maratona-explorer-3/",
       githubLink: "https://github.com/manoela-moyses/maratona-explorer-3"
     },
@@ -291,7 +291,7 @@ let projects = {
       subcategory: "LandingPages",
       description: "Site em WordPress feito para divulgação de curso on-line",
       tools: "",
-      image: "../assets/gamecraft.png",
+      image: "../../assets/gamecraft.png",
       siteLink: "https://manoelamoyses.net/gamecraft/",
       githubLink: ""
     },
@@ -301,7 +301,7 @@ let projects = {
       subcategory: "Institutionals",
       description: "Site em WordPress feito para clínica médica",
       tools: "",
-      image: "../assets/clicnica-medica.jpg",
+      image: "../../assets/clicnica-medica.jpg",
       siteLink: "https://manoelamoyses.net/clinicamedica/",
       githubLink: ""
     },
@@ -310,7 +310,7 @@ let projects = {
       category: "Coding",
       description: "Formulário criado no Stage 03 do Programa Explorer da Rocketseat",
       tools: "HTML e CSS",
-      image: "../assets/form.png",
+      image: "../../assets/form.png",
       siteLink: "https://manoela-moyses.github.io/criando-formularios/",
       githubLink: "https://github.com/manoela-moyses/criando-formularios"
     },
@@ -319,7 +319,7 @@ let projects = {
       category: "Coding",
       description: "Desafio 02 do Stage 03 do Programa Explorer da Rocketseat",
       tools: "HTML e CSS",
-      image: "../assets/responsividade.png",
+      image: "../../assets/responsividade.png",
       siteLink: "https://manoela-moyses.github.io/responsividade/",
       githubLink: "https://github.com/manoela-moyses/responsividade"
     },
@@ -328,7 +328,7 @@ let projects = {
       category: "Coding",
       description: "Desafio 03 do Stage 03 do Programa Explorer da Rocketseat",
       tools: "HTML e CSS",
-      image: "../assets/trabalhos.png",
+      image: "../../assets/trabalhos.png",
       siteLink: "https://manoela-moyses.github.io/componente-trabalhos/",
       githubLink: "https://github.com/manoela-moyses/componente-trabalhos"
     },
@@ -338,7 +338,7 @@ let projects = {
       subcategory: "Institutionals",
       description: "Site em WordPress feito para imobiliária",
       tools: "",
-      image: "../assets/imobiliaria.jpg",
+      image: "../../assets/imobiliaria.jpg",
       siteLink: "https://manoelamoyses.net/imobiliaria/",
       githubLink: ""
     },
@@ -348,7 +348,7 @@ let projects = {
       subcategory: "Ecommerce",
       description: "Site em WordPress feito para e-commerce de tecnologia",
       tools: "",
-      image: "../assets/tech-club.png",
+      image: "../../assets/tech-club.png",
       siteLink: "https://manoelamoyses.net/techclub/",
       githubLink: ""
     },
@@ -357,7 +357,7 @@ let projects = {
       category: "Coding",
       description: "Desafio avançado do Stage 02 do Programa Explorer da Rocketseat",
       tools: "HTML e CSS",
-      image: "../assets/rocket-sect.png",
+      image: "../../assets/rocket-sect.png",
       siteLink: "https://manoela-moyses.github.io/meuprojeto03/",
       githubLink: "https://github.com/manoela-moyses/meuprojeto03"
     },
@@ -366,7 +366,7 @@ let projects = {
       category: "Coding",
       description: "Aplicação criada no Programa FullStack JavaScript Profissional da OneBitCode",
       tools: "HTML e CSS",
-      image: "../assets/flexbox-grid.png",
+      image: "../../assets/flexbox-grid.png",
       siteLink: "https://manoela-moyses.github.io/exercicio-flexbox-grid/",
       githubLink: "https://github.com/manoela-moyses/exercicio-flexbox-grid"
     },
@@ -375,7 +375,7 @@ let projects = {
       category: "Coding",
       description: "Aplicação criada no Minicamp Data&Dev da XPE",
       tools: "HTML, CSS e JavaScript (com LocalStorage)",
-      image: "../assets/megasena.png",
+      image: "../../assets/megasena.png",
       siteLink: "https://manoela-moyses.github.io/megasena-xpe/",
       githubLink: "https://github.com/manoela-moyses/megasena-xpe"
     },
@@ -384,7 +384,7 @@ let projects = {
       category: "Coding",
       description: "Aplicação criada no Minicamp Data&Dev da XPE",
       tools: "HTML, CSS e JavaScript",
-      image: "../assets/calculadora-imc.png",
+      image: "../../assets/calculadora-imc.png",
       siteLink: "https://manoela-moyses.github.io/calculadora-imc-xpe/",
       githubLink: "https://github.com/manoela-moyses/calculadora-imc-xpe"
     },
@@ -440,7 +440,7 @@ for (let i of projects.data) {
     btnContainer.appendChild(githubLink);
   }
 
-  if (window.location.pathname === "/pages/projects.html") {
+  if (window.location.pathname === "/pages/projects/") {
     document.getElementById("projects").appendChild(card);
   }
   card.appendChild(container);
