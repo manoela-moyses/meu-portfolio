@@ -602,8 +602,9 @@ input.button:hover {
   transform: scale(0.9);
 }
 
-.gradient {
+input.button.gradient {
   background: -webkit-linear-gradient(left, #7562e0 0%, #da1381 100%);
+  cursor: pointer;
 }
 
 /**************************************************************/

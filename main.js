@@ -1,6 +1,3 @@
-// console.log(pathname);
-// console.log(self.location);
-// window.setTimeout(function () { window.location = "http://www.pt.stackoverflow.com"; }, 3000);
 const btnMobile = document.getElementById("btn-mobile");
 
 btnMobile.addEventListener('click', toggleMenu);
@@ -31,7 +28,6 @@ const btnContact = document.querySelector(".contact-me");
 
 if (aboutMeSection) {
   btnAboutMe.style.color = "#da1381";
-  console.log(aboutMeSection)
 }
 
 if (projectsSection) {
@@ -444,9 +440,11 @@ for (let i of projects.data) {
     btnContainer.appendChild(githubLink);
   }
 
+  if (window.location.pathname === "/pages/projects.html") {
+    document.getElementById("projects").appendChild(card);
+  }
   card.appendChild(container);
   card.appendChild(btnContainer);
-  document.getElementById("projects").appendChild(card);
 };
 
 function filterProject(value) {
