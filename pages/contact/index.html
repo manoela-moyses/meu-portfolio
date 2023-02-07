@@ -9,8 +9,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Manoela Moyses | Desenvolvimento Web</title>
 
-  <link rel="stylesheet" href="../style.css">
-  <link rel="shortcut icon" href="../assets/Icone.svg" type="image/svg-icon">
+  <link rel="stylesheet" href="../../style.css">
+  <link rel="shortcut icon" href="../../assets/Icone.svg" type="image/svg-icon">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;500;600&display=swap" rel="stylesheet">
   <script src="https://unpkg.com/phosphor-icons"></script>
 </head>
@@ -19,14 +19,14 @@
   <div class="container">
     <div class="menu-wrapper">
       <header id="header">
-        <a href="https://manoelamoyses.vercel.app"><img id="logo" src="../assets/ManoelaM.png" alt="Logo"></a>
-        <nav id="nav">
+        <a href="https://manoelamoyses.vercel.app"><img id="logo" src="../../assets/ManoelaM.png" alt="Logo"></a>
+        <nav id="na v">
           <button id="btn-mobile" aria-label="Abrir Menu" aria-haspopup="true" aria-controls="menu"
             aria-expanded="false"><span id="hamburguer"></span></button>
           <ul id="menu" role="menu">
-            <li><a class="about-me" href="../index.html">Sobre mim</a></li>
+            <li><a class="about-me" href="https://manoelamoyses.vercel.app">Sobre mim</a></li>
             <li><a class="proj" href="./projects.html">Projetos</a></li>
-            <li><a class="contact-me" href="./contact.html">Contato</a></li>
+            <li><a class="contact-me" href="./index.html">Contato</a></li>
           </ul>
         </nav>
       </header>
@@ -143,32 +143,29 @@
       </aside>
 
       <div class="main-content">
-        <section class="main-section">
-          <section class="projects-section">
-            <div id="main-projects">
-              <h2>Projetos</h2>
-            </div>
+        <section class="contact-section">
+          <div id="contact">
+            <h2>Contato</h2>
+          </div>
+          <div class="contact-card">
+            <h2>Satisfeito comigo? Vamos lá, entre em contato.</h2>
+            <form id="my-form" action="https://formsubmit.co/devmanoela@gmail.com" method="POST">
+              <input type="hidden" name="_captcha" value="false">
+              <input type="hidden" name="_next" value="https://manoelamoyses.vercel.app/pages/success">
+              <label class="sr-only" for="form-name"></label>
+              <input type="text" name="name" id="form-name" required placeholder="Nome:" required />
 
-            <div class="filter">
-              <div class="just-btn">
-                <div id="buttons">
-                  <button class="button-value" onclick="filterProject('todos')">Todos</button>
-                  <button class="button-value" onclick="filterProject('Coding')">Programação e código</button>
-                  <button class="button-value" id="wp-btn" onclick="filterProject('WordPress')">WordPress</button>
-                </div>
+              <label class="sr-only" for="form-email"></label>
+              <input type="email" name="email" id="form-email" placeholder="E-mail" required />
 
-                <div class="secondary-buttons hide">
-                  <button class="button-value" onclick="filterProject('Blogs')">Blogs</button>
-                  <button class="button-value" onclick="filterProject('Institutionals')">Institucionais</button>
-                  <button class="button-value" onclick="filterProject('LandingPages')">Landing Pages</button>
-                  <button class="button-value" onclick="filterProject('Ecommerce')">Lojas Virtuais</button>
-                </div>
+              <label class="sr-only" for="message"></label>
+              <textarea name="message" id="message" placeholder="Mensagem:"></textarea>
+
+              <div class="container-button">
+                <input class="button gradient" type="submit" form="my-form" value="Enviar">
               </div>
-
-              <div id="projects"></div>
-
-            </div>
-          </section>
+            </form>
+          </div>
         </section>
       </div>
     </main>
@@ -212,7 +209,7 @@
     </footer>
   </div>
 
-  <script src="../main.js"></script>
+  <script src="../../main.js"></script>
 </body>
 
 </html>
