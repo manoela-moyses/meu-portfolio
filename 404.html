@@ -9,11 +9,197 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Manoela Moyses | Desenvolvimento Web</title>
 
-  <link rel="stylesheet" href="page404.css">
   <link rel="shortcut icon" href="../assets/Icone.svg" type="image/svg-icon">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;500;600&display=swap" rel="stylesheet">
   <script src="https://unpkg.com/phosphor-icons"></script>
 </head>
+
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  :root {
+    font-size: 62.5%;
+  }
+
+  body {
+    font-size: 1.8rem;
+  }
+
+  .container {
+    min-height: 100vh;
+    background-color: #1a1a29;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    line-height: 3.2rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .success-section,
+  .error-section {
+    display: flex;
+    padding: 3.2rem;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    animation: fadein 1s 0.5s backwards;
+    max-width: 51.8rem;
+    margin: 0 auto;
+  }
+
+  .container-success,
+  .container-error {
+    background-color: white;
+    color: #7562e0;
+    text-align: center;
+    border-radius: 0.8rem;
+  }
+
+  .success,
+  .error,
+  .send-email,
+  .error-message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3.2rem;
+  }
+
+  .success,
+  .error {
+    background-color: #7562e0;
+    border-radius: 0.8rem 0.8rem 0 0;
+  }
+
+  .error {
+    background-color: #da1381;
+  }
+
+  .send-email,
+  .error-message {
+    border-radius: 0 0 0.8rem 0.8rem;
+  }
+
+  .success i,
+  .error i {
+    font-size: 12.5rem;
+    color: white;
+    padding-bottom: 1.6rem;
+  }
+
+  .success p,
+  .error p {
+    font-size: 3.2rem;
+    font-weight: 600;
+    color: white;
+  }
+
+  .send-email p,
+  .error-message p {
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+    font-weight: 600;
+    margin-bottom: 3.2rem;
+  }
+
+  .error-message p {
+    color: #da1381;
+  }
+
+  .send-email button,
+  .error-message button {
+    padding: 1.2rem 6.4rem;
+    border: none;
+    height: 5.3rem;
+    border-radius: 0.8rem;
+    background: linear-gradient(270deg, #da1381 0%, #7562e0 100%);
+    transition: all 0.4s ease-in-out;
+  }
+
+  .send-email a,
+  .error-message a {
+    text-decoration: none;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 2.4rem;
+  }
+
+  .send-email button:hover,
+  .error-message button:hover {
+    transform: scale(0.9);
+  }
+
+  @keyframes fadein {
+    0% {
+      opacity: 0;
+      transform: scale(0);
+    }
+
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+  @media (max-width: 425px) {
+
+    .success p,
+    .error p {
+      font-size: 2.4rem;
+    }
+
+    .success i,
+    .error i {
+      font-size: 10rem;
+    }
+
+    .send-email p,
+    .error-message p {
+      font-size: 1.6rem;
+      line-height: 3rem;
+      margin-bottom: 1.6rem;
+    }
+
+    .send-email a,
+    .error-message a {
+      font-size: 1.8rem;
+    }
+  }
+
+  @media (max-width: 320px) {
+
+    .success p,
+    .error p {
+      font-size: 2rem;
+    }
+
+    .send-email,
+    .error-message {
+      padding: 3.2rem 1.8rem;
+    }
+
+    .send-email p,
+    .error-message p {
+      font-size: 1.4rem;
+      line-height: 2.4rem;
+    }
+
+    .send-email button,
+    .error-message button {
+      padding: 1.2rem 3.2rem;
+      height: 4rem;
+      display: flex;
+      align-items: center;
+    }
+  }
+</style>
 
 <body>
   <div class="container">
