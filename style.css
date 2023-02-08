@@ -1030,7 +1030,7 @@ footer {
     flex-wrap: wrap;
     flex: 0;
   }
-
+  
   .mobile-aside {
     margin-top: 18.2rem;
   }
@@ -1048,10 +1048,6 @@ footer {
   aside,
   .main-content {
     min-width: 100%;
-  }
-
-  aside {
-    margin-top: 7.5rem;
   }
 
   .profile-card,
