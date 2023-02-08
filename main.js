@@ -463,14 +463,17 @@ function filterProject(value) {
 
   let elements = document.querySelectorAll(".card");
   let secondaryFilter = document.querySelector(".secondary-buttons");
+  let allBtn = document.querySelector("#all-btn");
   let wpBtn = document.querySelector("#wp-btn");
+  let codingBtn = document.querySelector("#cod-btn");
 
   elements.forEach((element) => {
     if (value == "todos") {
       element.classList.remove("hide");
       secondaryFilter.classList.add("hide");
+      allBtn.style.backgroundColor = "#7562e0";
+      codingBtn.style.backgroundColor = "transparent";
       wpBtn.style.backgroundColor = "transparent";
-      wpBtn.style.color = "white";
     } else {
       if (element.classList.contains(value)) {
         element.classList.remove("hide");
@@ -478,9 +481,19 @@ function filterProject(value) {
         element.classList.add("hide");
       }
 
+      if (value == "Coding") {
+        secondaryFilter.classList.add("hide");
+        allBtn.style.backgroundColor = "transparent";
+        codingBtn.style.backgroundColor = "#7562e0";
+        wpBtn.style.backgroundColor = "transparent";
+      }
+
       if (value == "WordPress") {
         secondaryFilter.classList.remove("hide");
         secondaryFilter.classList.add('active-bar');
+        allBtn.style.backgroundColor = "transparent";
+        codingBtn.style.backgroundColor = "transparent";
+        wpBtn.style.backgroundColor = "#7562e0";
       };
 
       if (secondaryFilter.classList.contains('active-bar')) {
@@ -490,10 +503,6 @@ function filterProject(value) {
 
       if (secondaryFilter.classList.contains('hide')) {
         secondaryFilter.classList.remove('active-bar')
-      }
-
-      if (value == "Coding") {
-        secondaryFilter.classList.add("hide");
       }
 
       if (!secondaryFilter.classList.contains('active-bar')) {
