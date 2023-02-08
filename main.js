@@ -458,8 +458,6 @@ function filterProject(value) {
     }
   });
 
-  console.log(buttons.value)
-
   let elements = document.querySelectorAll(".card");
   let secondaryFilter = document.querySelector(".secondary-buttons");
   let wpBtn = document.querySelector("#wp-btn");
