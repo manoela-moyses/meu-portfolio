@@ -960,9 +960,12 @@ footer {
   }
 
   .about-me-card,
-  .projects-card,
-  .contact-card {
+  .projects-card {
     padding: 3.2rem;
+  }
+
+  .contact-card h2 {
+    margin-top: 3.2rem;
   }
 
   .other-skills ul {
