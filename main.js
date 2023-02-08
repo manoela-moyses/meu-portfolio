@@ -466,8 +466,8 @@ function filterProject(value) {
     if (value == "todos") {
       element.classList.remove("hide");
       secondaryFilter.classList.add("hide");
-      wpBtn.style.backgroundColor = "transparent";
-      wpBtn.style.color = "white";
+      // wpBtn.style.backgroundColor = "transparent";
+      // wpBtn.style.color = "white";
     } else {
       if (element.classList.contains(value)) {
         element.classList.remove("hide");
@@ -481,8 +481,8 @@ function filterProject(value) {
       };
 
       if (secondaryFilter.classList.contains('active-bar')) {
-        wpBtn.style.backgroundColor = "#7562e0";
-        wpBtn.style.color = "white";
+        // wpBtn.style.backgroundColor = "#7562e0";
+        // wpBtn.style.color = "white";
       }
 
       if (secondaryFilter.classList.contains('hide')) {
@@ -500,7 +500,6 @@ function filterProject(value) {
     }
   });
 };
-
 
 window.onload = () => {
   filterProject("todos");
