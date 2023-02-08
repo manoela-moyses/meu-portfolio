@@ -460,7 +460,8 @@ table tr:nth-child(odd) {
   margin-right: 0;
 }
 
-.button-value:focus {
+.button-value:focus,
+.active {
   background-color: #7562e0;
   color: white;
 }
