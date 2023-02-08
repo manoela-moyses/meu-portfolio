@@ -448,24 +448,15 @@ for (let i of projects.data) {
 };
 
 function filterProject(value) {
-  // let buttons = document.querySelectorAll(".button-value");
-  // buttons.forEach((button) => {
-  //   if (value.toUpperCase() == button.innerText.toUpperCase()) {
-  //     button.classList.add("active");
-  //     console.log(button.innerText)
-  //     console.log(button.value)
-  //   }
-  //   else {
-  //     button.classList.remove("active");
-  //   }
-  // });
-
-
   let elements = document.querySelectorAll(".card");
   let secondaryFilter = document.querySelector(".secondary-buttons");
   let allBtn = document.querySelector("#all-btn");
   let wpBtn = document.querySelector("#wp-btn");
   let codingBtn = document.querySelector("#cod-btn");
+  let blogBtn = document.querySelector("#blog-btn");
+  let institucionalsBtn = document.querySelector("#inst-btn");
+  let landingBtn = document.querySelector("#land-btn");
+  let ecommerceBtn = document.querySelector("#ecom-btn");
 
   elements.forEach((element) => {
     if (value == "todos") {
@@ -495,6 +486,46 @@ function filterProject(value) {
         codingBtn.style.backgroundColor = "transparent";
         wpBtn.style.backgroundColor = "#7562e0";
       };
+
+      if (value == "Blogs") {
+        allBtn.style.backgroundColor = "transparent";
+        codingBtn.style.backgroundColor = "transparent";
+        wpBtn.style.backgroundColor = "#7562e0";
+        blogBtn.style.backgroundColor = "#7562e0";
+        institucionalsBtn.style.backgroundColor = "transparent";
+        landingBtn.style.backgroundColor = "transparent";
+        ecommerceBtn.style.backgroundColor = "transparent";
+      }
+
+      if (value == "Institutionals") {
+        allBtn.style.backgroundColor = "transparent";
+        codingBtn.style.backgroundColor = "transparent";
+        wpBtn.style.backgroundColor = "#7562e0";
+        blogBtn.style.backgroundColor = "transparent";
+        institucionalsBtn.style.backgroundColor = "#7562e0";
+        landingBtn.style.backgroundColor = "transparent";
+        ecommerceBtn.style.backgroundColor = "transparent";
+      }
+
+      if (value == "LandingPages") {
+        allBtn.style.backgroundColor = "transparent";
+        codingBtn.style.backgroundColor = "transparent";
+        wpBtn.style.backgroundColor = "#7562e0";
+        blogBtn.style.backgroundColor = "transparent";
+        institucionalsBtn.style.backgroundColor = "transparent";
+        landingBtn.style.backgroundColor = "#7562e0";
+        ecommerceBtn.style.backgroundColor = "transparent";
+      }
+
+      if (value == "Ecommerce") {
+        allBtn.style.backgroundColor = "transparent";
+        codingBtn.style.backgroundColor = "transparent";
+        wpBtn.style.backgroundColor = "#7562e0";
+        blogBtn.style.backgroundColor = "transparent";
+        institucionalsBtn.style.backgroundColor = "transparent";
+        landingBtn.style.backgroundColor = "transparent";
+        ecommerceBtn.style.backgroundColor = "#7562e0";
+      }
 
       if (secondaryFilter.classList.contains('active-bar')) {
         wpBtn.style.backgroundColor = "#7562e0";
