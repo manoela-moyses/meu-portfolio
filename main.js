@@ -452,11 +452,14 @@ function filterProject(value) {
   buttons.forEach((button) => {
     if (value.toUpperCase() == button.innerText.toUpperCase()) {
       button.classList.add("active");
+      console.log(button.innerText)
+      console.log(button.value)
     }
     else {
       button.classList.remove("active");
     }
   });
+
 
   let elements = document.querySelectorAll(".card");
   let secondaryFilter = document.querySelector(".secondary-buttons");
