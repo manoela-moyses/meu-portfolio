@@ -1193,6 +1193,12 @@ footer {
 
   .buttons a {
     font-size: 1.8rem;
+    width: 15.5rem;
+  }
+
+  .btn-github a,
+  .btn-cv a {
+    justify-content: center;
   }
 
   .button-value {
@@ -1226,12 +1232,8 @@ footer {
     font-size: 1.8rem;
   }
 
-  .buttons {
-    justify-content: center;
-  }
-
   .buttons a {
-    font-size: 1.2rem;
+    font-size: 1.6rem;
   }
 
   table thead th,
