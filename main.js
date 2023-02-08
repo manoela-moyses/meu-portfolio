@@ -485,6 +485,10 @@ function filterProject(value) {
         allBtn.style.backgroundColor = "transparent";
         codingBtn.style.backgroundColor = "transparent";
         wpBtn.style.backgroundColor = "#7562e0";
+        blogBtn.style.backgroundColor = "transparent";
+        institucionalsBtn.style.backgroundColor = "transparent";
+        landingBtn.style.backgroundColor = "transparent";
+        ecommerceBtn.style.backgroundColor = "transparent";
       };
 
       if (value == "Blogs") {
