@@ -448,17 +448,17 @@ for (let i of projects.data) {
 };
 
 function filterProject(value) {
-  let buttons = document.querySelectorAll(".button-value");
-  buttons.forEach((button) => {
-    if (value.toUpperCase() == button.innerText.toUpperCase()) {
-      button.classList.add("active");
-      console.log(button.innerText)
-      console.log(button.value)
-    }
-    else {
-      button.classList.remove("active");
-    }
-  });
+  // let buttons = document.querySelectorAll(".button-value");
+  // buttons.forEach((button) => {
+  //   if (value.toUpperCase() == button.innerText.toUpperCase()) {
+  //     button.classList.add("active");
+  //     console.log(button.innerText)
+  //     console.log(button.value)
+  //   }
+  //   else {
+  //     button.classList.remove("active");
+  //   }
+  // });
 
 
   let elements = document.querySelectorAll(".card");
@@ -469,8 +469,8 @@ function filterProject(value) {
     if (value == "todos") {
       element.classList.remove("hide");
       secondaryFilter.classList.add("hide");
-      // wpBtn.style.backgroundColor = "transparent";
-      // wpBtn.style.color = "white";
+      wpBtn.style.backgroundColor = "transparent";
+      wpBtn.style.color = "white";
     } else {
       if (element.classList.contains(value)) {
         element.classList.remove("hide");
@@ -484,8 +484,8 @@ function filterProject(value) {
       };
 
       if (secondaryFilter.classList.contains('active-bar')) {
-        // wpBtn.style.backgroundColor = "#7562e0";
-        // wpBtn.style.color = "white";
+        wpBtn.style.backgroundColor = "#7562e0";
+        wpBtn.style.color = "white";
       }
 
       if (secondaryFilter.classList.contains('hide')) {
