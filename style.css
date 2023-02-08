@@ -1031,6 +1031,14 @@ footer {
     flex: 0;
   }
 
+  .mobile-aside {
+    margin-top: 18.2rem;
+  }
+
+  .responsive {
+    display: none;
+  }
+
   aside,
   .main-content {
     margin-top: 0;
