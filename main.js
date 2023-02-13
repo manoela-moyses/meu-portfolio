@@ -121,7 +121,7 @@ let projects = {
       description: "Site em WordPress feito para clínica veterinária / pet shop",
       tools: "",
       image: "../../assets/vet-care.png",
-      siteLink: "https://manoelamoyses.net/vetcare/",
+      siteLink: "http://vetcare.rf.gd",
       githubLink: ""
     },
     {
