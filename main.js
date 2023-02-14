@@ -235,7 +235,7 @@ let projects = {
       description: "Site em WordPress feito para apresentação de aplicativo",
       tools: "",
       image: "../../assets/10-minutos-exercicios.png",
-      siteLink: "https://manoelamoyses.net/10minutosexercicios/",
+      siteLink: "http://10minutosexercicios.rf.gd",
       githubLink: ""
     },
     {
