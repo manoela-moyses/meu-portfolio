@@ -206,7 +206,7 @@ let projects = {
       description: "Site em WordPress feito para divulgação de infoproduto",
       tools: "",
       image: "../../assets/infoproduto.png",
-      siteLink: "https://manoelamoyses.net/site-infoproduto/",
+      siteLink: "http://site-infoproduto.rf.gd/",
       githubLink: ""
     },
     {
