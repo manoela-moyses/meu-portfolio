@@ -264,7 +264,7 @@ let projects = {
       description: "Site em WordPress feito para administração de blog",
       tools: "",
       image: "../../assets/blog-fitness.png",
-      siteLink: "https://manoelamoyses.net/blogfitness/",
+      siteLink: "http://blogfitness.rf.gd",
       githubLink: ""
     },
     {
