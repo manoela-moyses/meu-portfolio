@@ -292,7 +292,7 @@ let projects = {
       description: "Site em WordPress feito para divulgação de curso on-line",
       tools: "",
       image: "../../assets/gamecraft.png",
-      siteLink: "https://manoelamoyses.net/gamecraft/",
+      siteLink: "http://gamecraft.rf.gd",
       githubLink: ""
     },
     {
