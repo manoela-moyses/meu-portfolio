@@ -178,7 +178,7 @@ let projects = {
       description: "Site em WordPress feito para agência digital",
       tools: "",
       image: "../../assets/digital-fire.png",
-      siteLink: "https://manoelamoyses.net/digitalfire/",
+      siteLink: "http://digitalfire.rf.gd",
       githubLink: ""
     },
     {
