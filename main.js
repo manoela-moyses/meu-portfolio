@@ -349,7 +349,7 @@ let projects = {
       description: "Site em WordPress feito para e-commerce de tecnologia",
       tools: "",
       image: "../../assets/tech-club.png",
-      siteLink: "https://manoelamoyses.net/techclub/",
+      siteLink: "http://techclub.rf.gd/",
       githubLink: ""
     },
     {
