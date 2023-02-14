@@ -149,7 +149,7 @@ let projects = {
       description: "Site em WordPress feito para e-commerce de macarons",
       tools: "",
       image: "../../assets/macaron-shop.png",
-      siteLink: "https://manoelamoyses.net/macaronshop/",
+      siteLink: "http://macaronshop.rf.gd",
       githubLink: ""
     },
     {
