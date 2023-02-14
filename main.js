@@ -254,7 +254,7 @@ let projects = {
       description: "Site em WordPress feito para portfólio",
       tools: "",
       image: "../../assets/portfolio.png",
-      siteLink: "https://manoelamoyses.net/portfolio/",
+      siteLink: "http://portfolioquatz.rf.gd",
       githubLink: ""
     },
     {
@@ -302,7 +302,7 @@ let projects = {
       description: "Site em WordPress feito para clínica médica",
       tools: "",
       image: "../../assets/clicnica-medica.jpg",
-      siteLink: "https://manoelamoyses.net/clinicamedica/",
+      siteLink: "http://site-clinicamedica.rf.gd/",
       githubLink: ""
     },
     {
