@@ -50,6 +50,15 @@ let projects = {
       githubLink: "https://github.com/manoela-moyses/meu-portfolio"
     },
     {
+      projectName: "Caravan",
+      category: "Coding",
+      description: "Aplicação criada no curso Bootstrap 4 da Origamid",
+      tools: "HTML, CSS, JavasCript e Bootstrap",
+      image: "../../../assets/caravan.png",
+      siteLink: "https://manoela-moyses.github.io/caravan",
+      githubLink: "https://github.com/manoela-moyses/caravan"
+    },
+    {
       projectName: "Meu Linktree",
       category: "Coding",
       description: "Árvore de links para a Bio do Instagram",
