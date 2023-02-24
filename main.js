@@ -59,6 +59,15 @@ let projects = {
       githubLink: "https://github.com/manoela-moyses/caravan"
     },
     {
+      projectName: "Bikcraft",
+      category: "Coding",
+      description: "Aplicação criada no curso CSS com SASS da Origamid",
+      tools: "HTML, CSS, JavasCript e SASS",
+      image: "../../../assets/bikcraft.png",
+      siteLink: "https://bikcraft-liard.vercel.app/",
+      githubLink: "https://github.com/manoela-moyses/bikcraft"
+    },
+    {
       projectName: "Meu Linktree",
       category: "Coding",
       description: "Árvore de links para a Bio do Instagram",
