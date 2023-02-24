@@ -10,7 +10,7 @@
 
 body {
   font-size: 1.8rem;
-  background-color: #181824;
+  background-color: #1a1a29;
 }
 
 .hide {
@@ -339,6 +339,15 @@ aside {
   padding: 1.2rem 2.6rem;
   border-radius: 0.8rem;
   transition: all 0.4s ease-in-out;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
 }
 
 .btn-github:hover,
@@ -354,19 +363,6 @@ aside {
 .btn-cv {
   background-color: transparent;
   border: 2px solid #7562e0;
-}
-
-.btn-github a,
-.btn-cv a {
-  text-decoration: none;
-  font-family: "Poppins", sans-serif;
-  color: white;
-  font-weight: 600;
-  font-size: 1.6rem;
-  line-height: 2.4rem;
-  display: flex;
-  align-items: center;
-  gap: 0.8rem;
 }
 
 .btn-github a i,
@@ -612,8 +608,7 @@ input.button.gradient {
 /**************************************************************/
 /* SUCCESS & 404 ERROR */
 
-.success-section,
-.error-section {
+.success-section {
   display: flex;
   padding: 3.2rem;
   height: 100vh;
@@ -624,8 +619,7 @@ input.button.gradient {
   margin: 0 auto;
 }
 
-.container-success,
-.container-error {
+.container-success {
   background-color: white;
   color: #7562e0;
   text-align: center;
@@ -633,58 +627,42 @@ input.button.gradient {
 }
 
 .success,
-.error,
-.send-email,
-.error-message {
+.send-email {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 3.2rem;
 }
 
-.success,
-.error {
+.success {
   background-color: #7562e0;
   border-radius: 0.8rem 0.8rem 0 0;
 }
 
-.error {
-  background-color: #da1381;
-}
-
-.send-email,
-.error-message {
+.send-email {
   border-radius: 0 0 0.8rem 0.8rem;
 }
 
-.success i,
-.error i {
+.success i {
   font-size: 12.5rem;
   color: white;
   padding-bottom: 1.6rem;
 }
 
-.success p,
-.error p {
+.success p {
   font-size: 3.2rem;
   font-weight: 600;
   color: white;
 }
 
-.send-email p,
-.error-message p {
+.send-email p {
   font-size: 2.4rem;
   line-height: 3.6rem;
   font-weight: 600;
   margin-bottom: 3.2rem;
 }
 
-.error-message p {
-  color: #da1381;
-}
-
-.send-email button,
-.error-message button {
+.success-link {
   padding: 1.2rem 6.4rem;
   border: none;
   height: 5.3rem;
@@ -702,54 +680,45 @@ input.button.gradient {
   font-size: 2.4rem;
 }
 
-.send-email button:hover,
-.error-message button:hover {
+.success-link:hover {
   transform: scale(0.9);
 }
 
 @media (max-width: 425px) {
-  .success p,
-  .error p {
+  .success p {
     font-size: 2.4rem;
   }
 
-  .success i,
-  .error i {
+  .success i {
     font-size: 10rem;
   }
 
-  .send-email p,
-  .error-message p {
+  .send-email p {
     font-size: 1.6rem;
     line-height: 3rem;
     margin-bottom: 1.6rem;
   }
 
-  .send-email a,
-  .error-message a {
+  .send-email a {
     font-size: 1.8rem;
   }
 }
 
 @media (max-width: 320px) {
-  .success p,
-  .error p {
+  .success p {
     font-size: 2rem;
   }
 
-  .send-email,
-  .error-message {
+  .send-email {
     padding: 3.2rem 1.8rem;
   }
 
-  .send-email p,
-  .error-message p {
+  .send-email p {
     font-size: 1.4rem;
     line-height: 2.4rem;
   }
 
-  .send-email button,
-  .error-message button {
+  .success-link {
     padding: 1.2rem 3.2rem;
     height: 4rem;
     display: flex;
@@ -1185,22 +1154,6 @@ footer {
 }
 
 @media (max-width: 610px) {
-  .buttons {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 1.6rem;
-  }
-
-  .buttons a {
-    font-size: 1.8rem;
-    width: 15.5rem;
-  }
-
-  .btn-github a,
-  .btn-cv a {
-    justify-content: center;
-  }
-
   .button-value {
     display: flex;
     margin-bottom: 0.8rem;
@@ -1232,7 +1185,15 @@ footer {
     font-size: 1.8rem;
   }
 
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.6rem;
+  }
+
   .buttons a {
+    width: 19rem;
     font-size: 1.6rem;
   }
 
