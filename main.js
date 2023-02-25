@@ -68,6 +68,15 @@ let projects = {
       githubLink: "https://github.com/manoela-moyses/bikcraft"
     },
     {
+      projectName: "Le Scone",
+      category: "Coding",
+      description: "Aplicação criada no curso CSS com SASS da Origamid",
+      tools: "HTML, CSS e SASS",
+      image: "../../../assets/le-scone.png",
+      siteLink: "https://manoela-moyses.github.io/le-scone/",
+      githubLink: "https://github.com/manoela-moyses/le-scone"
+    },
+    {
       projectName: "Meu Linktree",
       category: "Coding",
       description: "Árvore de links para a Bio do Instagram",
