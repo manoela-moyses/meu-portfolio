@@ -148,7 +148,7 @@ let projects = {
       description: "Site em WordPress feito para clínica veterinária / pet shop",
       tools: "",
       image: "../../assets/vet-care.png",
-      siteLink: "https://vetcare.rf.gd",
+      siteLink: "https://manoelamoyses.net/vetcare",
       githubLink: ""
     },
     {
@@ -176,7 +176,7 @@ let projects = {
       description: "Site em WordPress feito para e-commerce de macarons",
       tools: "",
       image: "../../assets/macaron-shop.png",
-      siteLink: "https://macaronshop.rf.gd",
+      siteLink: "https://manoelamoyses.net/macaronshop",
       githubLink: ""
     },
     {
@@ -205,7 +205,7 @@ let projects = {
       description: "Site em WordPress feito para agência digital",
       tools: "",
       image: "../../assets/digital-fire.png",
-      siteLink: "https://digitalfire.rf.gd",
+      siteLink: "https://manoelamoyses.net/digitalfire",
       githubLink: ""
     },
     {
@@ -233,7 +233,7 @@ let projects = {
       description: "Site em WordPress feito para divulgação de infoproduto",
       tools: "",
       image: "../../assets/infoproduto.png",
-      siteLink: "https://site-infoproduto.rf.gd/",
+      siteLink: "https://manoelamoyses.net/infoproduto",
       githubLink: ""
     },
     {
@@ -243,7 +243,7 @@ let projects = {
       description: "Site em WordPress feito para captura de e-mail",
       tools: "",
       image: "../../assets/captura-de-email.png",
-      siteLink: "https://captura-de-email.rf.gd",
+      siteLink: "https://manoelamoyses.net/captura-email",
       githubLink: ""
     },
     {
@@ -262,7 +262,7 @@ let projects = {
       description: "Site em WordPress feito para apresentação de aplicativo",
       tools: "",
       image: "../../assets/10-minutos-exercicios.png",
-      siteLink: "https://10minutosexercicios.rf.gd",
+      siteLink: "https://manoelamoyses.net/10minutosexercicios",
       githubLink: ""
     },
     {
@@ -281,7 +281,7 @@ let projects = {
       description: "Site em WordPress feito para portfólio",
       tools: "",
       image: "../../assets/portfolio.png",
-      siteLink: "https://portfolioquatz.rf.gd",
+      siteLink: "https://manoelamoyses.net/portfolio",
       githubLink: ""
     },
     {
@@ -291,7 +291,7 @@ let projects = {
       description: "Site em WordPress feito para administração de blog",
       tools: "",
       image: "../../assets/blog-fitness.png",
-      siteLink: "https://blogfitness.rf.gd",
+      siteLink: "https://manoelamoyses.net/blogfitness",
       githubLink: ""
     },
     {
@@ -319,7 +319,7 @@ let projects = {
       description: "Site em WordPress feito para divulgação de curso on-line",
       tools: "",
       image: "../../assets/gamecraft.png",
-      siteLink: "https://gamecraft.rf.gd",
+      siteLink: "https://manoelamoyses.net/gamecraft",
       githubLink: ""
     },
     {
@@ -329,7 +329,7 @@ let projects = {
       description: "Site em WordPress feito para clínica médica",
       tools: "",
       image: "../../assets/clicnica-medica.jpg",
-      siteLink: "https://site-clinicamedica.rf.gd/",
+      siteLink: "https://manoelamoyses.net/clinicamedica",
       githubLink: ""
     },
     {
@@ -366,7 +366,7 @@ let projects = {
       description: "Site em WordPress feito para imobiliária",
       tools: "",
       image: "../../assets/imobiliaria.jpg",
-      siteLink: "https://imobiliaria.rf.gd",
+      siteLink: "https://manoelamoyses.net/imobiliaria",
       githubLink: ""
     },
     {
@@ -376,7 +376,7 @@ let projects = {
       description: "Site em WordPress feito para e-commerce de tecnologia",
       tools: "",
       image: "../../assets/tech-club.png",
-      siteLink: "https://techclub.rf.gd/",
+      siteLink: "https://manoelamoyses.net/techclub",
       githubLink: ""
     },
     {

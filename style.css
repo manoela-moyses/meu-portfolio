@@ -581,6 +581,7 @@ table tr:nth-child(odd) {
 
 #message {
   height: 38.4rem;
+  resize: none;
 }
 
 input.button {
