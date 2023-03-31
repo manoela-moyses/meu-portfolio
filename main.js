@@ -275,16 +275,6 @@ let projects = {
       githubLink: "https://github.com/manoela-moyses/jogo-adivinhacao"
     },
     {
-      projectName: "Portfólio",
-      category: "WordPress",
-      subcategory: "Institutionals",
-      description: "Site em WordPress feito para portfólio",
-      tools: "",
-      image: "../../assets/portfolio.png",
-      siteLink: "https://manoelamoyses.net/portfolio",
-      githubLink: ""
-    },
-    {
       projectName: "Blog Fitness",
       category: "WordPress",
       subcategory: "Blogs",
